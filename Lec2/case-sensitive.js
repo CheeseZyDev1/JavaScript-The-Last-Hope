@@ -1,4 +1,4 @@
-const status = 'error';
+const status = 'erRoR';
 
 if (status.toUpperCase() === 'ERROR') {
     console.log('Something went wrong');
