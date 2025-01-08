@@ -6,3 +6,4 @@ class Song{
 }
 const mySong = new Song("Bohiemian Rhapsody","Queen");
 console.log(mySong.title);
+console.log(mySong.artist);
