@@ -9,7 +9,7 @@ promiseTimeout(2000)
         return promiseTimeout(1000);
     })
     .then(() =>{
-     console.log("Also dome");
+     console.log("Also done");
      return Promise.resolve(42);
     })
     .then((result) => {
